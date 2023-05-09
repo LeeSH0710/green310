@@ -57,7 +57,7 @@
         <li>item - 자식요소를 부르는 명칭</li>
     </ul>
 
-    <p>Container 요소에는 <b>display</b>, flex-flow(묶음기능), flex-derection(수평,수직),
+    <p>Container 요소에는 <b>display</b>, flex-flow(묶음기능), flex-direction(수평,수직),
         <b>justify-content</b>(아이템정렬),<b>aline-item</b>(아이템수직정렬)
     </p>
     <p>items속성에는 flex,grow(증가너비),shrink(감소너비),basis(크기배분),align-self(각자조정)</p>
@@ -72,6 +72,46 @@
         <li>menu4</li>
         <li>menu5</li>
     </ul>
+
+    <h2>Position - 요소를 자유롭게 배치레이아웃</h2>
+    <p>여러요소를 순서와 상관없이 화면에 가로세로 좌표값을 기준으로 배치<br>
+        특정영역안에서 위치조절을 자유롭게 할 수 있어 유연한 레이아웃이 가능</p>
+
+    <ul>
+        <li>relative : 적용된 요소의 현재 위치값을 기준으로 상대위치를 지정한다.
+            (기준값- 부모요소에 주되게 사용 또는 z-index값을 적용할시 사용)
+        </li>
+        <li>absolute : 부모요소에 특정구간을 기준으로 절대위치를 지정한다.
+            (움직이는 요소)<br>
+            부모요소에 relative를 지정하지않을경우 윈도우를 기준으로 움직인다.
+        </li>
+        <li>
+            fixed : 웹브라우저를 기준으로 절대위치를 지정한다.
+            (화면기준으로 보임)
+        </li>
+    </ul>
+
+    <div class="box004">
+        <p>relative</p>
+        <p>absolute</p>
+        <p>fixed</p>
+    </div>
+
+    <div class="box005">
+        <p>position1</p>
+        <p><span>position2</span></p>
+        <p>position3</p>
+    </div>
+
+    <h3>z-index 속성</h3>
+    <p> position을 사용한 요소끼리의 겹쳐져있는 순서를 제어할 수 있다.<br>
+        값이 클수록 위로올라온다.</p>
+
+    <div class="box006">
+        <p>box1</p>
+        <p>box2</p>
+        <p>box3</p>
+    </div>
 
 
 </body>

@@ -1,0 +1,61 @@
+@charset
+
+/* 전체설정 */
+
+* {margin: 0;
+    padding: 0;}
+
+ul,ol {list-style: none;}
+
+a {color: #000;
+    text-decoration: none;}
+
+img {border: none;
+    vertical-align: bottom;}
+
+body {font-family: '맑은고딕', 'Apple SD Gothic Neo', 'sans-serif';}
+
+
+/* 로고설정 */
+.logo {}
+.logo a {}
+.logo i {width: 250px;
+        height: 33px;}
+
+
+/* 메뉴설정 */
+
+.menu {}
+.menu ul {}
+.menu li {}
+.menu li a {display: block;
+            padding: 10px 15px;}
+.menu li a:hover {background-color: #eee;}
+
+/* 헤더이미지설정 */
+.top {max-width: 100%;
+        height: auto;}
+
+
+/*  */
+
+
+
+/* 미디어쿼리 설정 */
+
+
+
+
+/* 768px 이상설정 */
+@media (min-width:768px) {
+
+    .boxA {display: flex;
+        justify-content: space-between;
+        align-items: center;}
+
+    .menu {display: block;}
+    .menu ul {display: flex;}
+    .menu li {}
+    .menu li a {}
+
+}
